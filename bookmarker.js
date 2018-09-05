@@ -58,8 +58,8 @@ function fetchBookmarks() {
         var name=bookmarks[i].name;
         var url=bookmarks[i].url;
 
-        bookmarksResults.innerHTML += '<div class="well">' + '<h3>' +name+'<a class="btn btn-default" target="_blank" href="'+addhttp(url)+'">Visit</a>' +
-            '<a onclick="deleteBookmark(\''+url+'\')" class="btn btn-danger" target="_blank" href="#">Delete</a> '
+        bookmarksResults.innerHTML += '<div class="well">' + '<h3>' +name+'<a class="btn btn-default"  href="'+addhttp(url)+'">Visit</a>' +
+            '<a onclick="deleteBookmark(\''+url+'\')" class="btn btn-danger"  href="#">Delete</a> '
             +'</h3>' +'</div>';
     }
 
