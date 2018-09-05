@@ -1,0 +1,5 @@
+ipconfig/all
+systeminfo
+www.facebook.com
+color a
+help
